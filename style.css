@@ -1,0 +1,103 @@
+.customImg{
+  height: 90px;
+  width: 144px;
+}
+
+.customImg2{
+  height: 300px;
+  width: 350px;
+}
+
+
+body{
+  overflow-x: hidden;
+}
+
+.customTag{
+background-image: 
+  linear-gradient(rgba(200,70,20,0.9), rgba(200,70,20,0.9)),
+  url("./asssets/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+}
+
+.fill-screen{
+  height: 60vh;
+}
+
+:root{
+  --bs-orange:#e96c1f;
+  --bg-color:#b67a48;
+}
+
+.bg-custom-orange{
+  background-color: var(--bs-orange)
+
+}
+
+.card-img-custom{
+  height: 400px;
+  object-fit: cover;
+}
+
+
+.bg-footer{
+  background-color: var(--bg-color);
+}
+
+.sk-button{
+  height: 58px;
+  width: 130px;
+  background-color: #f4524d;
+}
+
+.sk-fonts{
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.inner-img{
+  height: 100px;
+  width: 120px;
+}
+
+.text-bold{
+  font-family: serif;
+  font-weight: bold;
+}
+
+.text-color{
+  color: #b67a48;
+  font-size: 27px;
+}
+
+.p-text{
+  font: 16px;
+  
+}
+
+.contact-sk-button{
+   height: 58px;
+  width: 130px;
+}
+
+.nav-link.active{
+  color: #b67a48 !important;
+}
+
+.footer-heading{
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+
+.footer-content{
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+
+.customAnimi:hover{
+  color: #b67a48;
+}
