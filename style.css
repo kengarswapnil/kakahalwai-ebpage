@@ -46,6 +46,17 @@ background-image:
   background-color: var(--bg-color);
 }
 
+.bg-bttons{
+  background-color: #b67a48;
+  color: white;
+  border: none;
+}
+.bg-bttons:hover{
+  background-color: #a06a3e;
+  color: white
+  ;
+}
+
 .sk-button{
   height: 58px;
   width: 130px;
@@ -80,6 +91,7 @@ background-image:
 .contact-sk-button{
    height: 58px;
   width: 130px;
+ 
 }
 
 .nav-link.active{
@@ -101,3 +113,60 @@ background-image:
 .customAnimi:hover{
   color: #b67a48;
 }
+
+
+.product-Animi:hover{
+  background-color: #e96c1f;
+}
+
+
+@media (max-width:881px){
+  .nav-link-header{
+    background-color: #EAEAEA;
+    color: black;
+    border: 1px solid white;
+    padding-left: 10px;
+    font: 16px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+  }
+  .navbar-nav   .nav-link-header:hover{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+}
+
+
+/* @media (max-width:800px){
+  .category-button{
+    order: 2;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+  }
+  .product-section{
+    order: 1;
+  }
+} */
+
+
+ .category-button{
+ background: #b67a48;
+ color: white;
+ border: 1px solid white;
+ /* padding: 8px 12px; */
+ width: auto;
+ ;}
+
+
+ @media (max-width:576px){
+   .category-button{
+    width: 100%;
+    background: white;
+    color: #000;
+    border: 1px solid #ddd;
+   }
+} 
